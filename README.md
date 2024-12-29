@@ -8,3 +8,14 @@ This project leverages the CDC Diabetes Health Indicators dataset to develop mac
 - Risk Score Development: Designing a scoring system to classify individuals into low, medium, and high-risk categories, enabling actionable insights for public health strategies.
 
 - The project emphasizes a data-driven approach to understanding and addressing diabetes prevalence through machine learning.
+
+Before running the code, please ensure you have the necessary libraries installed by running the following command:
+
+```bash 
+pip install pandas certifi
+pip install ucimlrep
+``` 
+
+The main code file is `diabetes_risk_prediction.ipynb`, which contains the implementation of the machine learning models and analysis. The dataset used in this project is publicly available from the UCI Machine Learning Repository. This dataset is skewed with more observations in the non-diabetic than diabetic, so I have under-sampled the majority class to balance the dataset for training the models. The dataset has not null values, so no imputation is required. However, there are some features that needed to be converted to dummy variables (eg, GenHealth, Age, Education, Income) because the orginal dataset has categorical variables. 
+
+I have written an article on this project, which you can find on my Medium
