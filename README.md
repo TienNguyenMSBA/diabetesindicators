@@ -6,6 +6,7 @@ This project leverages the CDC Diabetes Health Indicators dataset to develop mac
 - Feature Importance Analysis: Identifying the most influential health indicators contributing to diabetes risk using feature selection techniques.
 - Anomaly Detection: Detecting unusual health profiles that may signal potential outliers or unique cases using Isolation Forest.
 - Risk Score Development: Designing a scoring system to classify individuals into low, medium, and high-risk categories, enabling actionable insights for public health strategies.
+(I actually have a section where you can input your data and see your diabtes risk score :D)
 
 - The project emphasizes a data-driven approach to understanding and addressing diabetes prevalence through machine learning.
 
